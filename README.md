@@ -23,6 +23,12 @@ See instructions in [grafana readme](grafana/README.md). Run using
 (cd grafana; docker-compose up -d)
 ```
 
+## Prometheus
+See instructions in [prometheus readme](prometheus/README.md). Run using
+```bash
+(cd prometheus; docker-compose up -d)
+```
+
 ## Building
 If you want to ensure rebuilding the docker image before launching containers, you can use
 ```bash
